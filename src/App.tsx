@@ -130,13 +130,13 @@ export default function App() {
           <h2 className="text-2xl sm:text-3xl text-blue-600 dark:text-blue-400 font-semibold mb-3 sm:mb-4">About Me</h2>
           <p className="max-w-md sm:max-w-xl text-gray-700 dark:text-gray-300 leading-relaxed text-base sm:text-lg">
           Saya seorang pengembang web yang bersemangat dan gemar menciptakan pengalaman web yang bersih dan modern. Saya ahli dalam membangun situs web dan aplikasi yang responsif dan mudah digunakan.          </p>
-          <a 
+          {/* <a 
             href={Cv} 
             download="CV_Azka_Fajril_Qirom.pdf"
             className="bg-blue-600 dark:bg-blue-500 text-white font-bold py-2 sm:py-3 px-4 rounded-md hover:bg-blue-700 dark:hover:bg-blue-600 focus:bg-blue-700 dark:focus:bg-blue-600 focus:outline-none transition-colors duration-300 text-base sm:text-lg inline-block text-center"
           >
             Download CV
-          </a>
+          </a> */}
         </section>
 
         {/* Projects full stack Section */}
