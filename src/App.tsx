@@ -11,6 +11,7 @@ import Sekola from "./assets/sekola.png"
 import Cv from "./assets/cv azka.pdf"
 import rbx from "./assets/beam.png"
 import Indket from "./assets/indket.png"
+import kendaraan from "./assets/jualbelikendaraan.png"
 export default function App() {
   const [darkMode, setDarkMode] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -149,6 +150,10 @@ export default function App() {
               <img className="rounded-md mb-4 object-cover h-48 w-full" src={Coofe} alt="Screenshot of Project One" />
               <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">Cofe shop online order</h3>
               <p className="text-gray-600 dark:text-gray-400 flex-grow">untuk membeli kopi secara online</p>
+            </a>
+            <a href="https://jualbelikendaraan.netlify.app/" target="_blank" rel="noopener noreferrer" tabIndex={0} aria-label="Project: Project One" className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg focus:shadow-lg focus:outline-none transition-shadow duration-300 flex flex-col">
+              <img className="rounded-md mb-4 object-cover h-48 w-full" src={kendaraan} alt="Screenshot of Project One" />
+              <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">jualbelikendaraan</h3>
             </a>
             
            
