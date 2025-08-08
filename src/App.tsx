@@ -164,11 +164,7 @@ export default function App() {
               <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">Rumah Impian</h3>
               <p className="text-gray-600 dark:text-gray-400 flex-grow">Rumah Impian Adalah website untuk membeli rumah atau pun menyewakan Rumaha</p>
             </a>
-            <a href="https://twomuchpeople.vercel.app/" target="_blank" rel="noopener noreferrer" tabIndex={0} aria-label="Project: Project Two" className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg focus:shadow-lg focus:outline-none transition-shadow duration-300 flex flex-col">
-              <img className="rounded-md mb-4 object-cover h-48 w-full" src={Kelas} alt="Screenshot of Project Two" />
-              <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">CLASS</h3>
-              <p className="text-gray-600 dark:text-gray-400 flex-grow">Ini adalah Website kelas saya di kelas 2 sma saya</p>
-            </a>
+           
             
             <a href="https://clonetopia.netlify.app/" target="_blank" rel="noopener noreferrer" tabIndex={0} aria-label="Project: Project Three" className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg focus:shadow-lg focus:outline-none transition-shadow duration-300 flex flex-col">
               <img className="rounded-md mb-4 object-cover h-48 w-full" src={Clonetopia} alt="Screenshot of Project Three" />
