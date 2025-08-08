@@ -9,6 +9,8 @@ import Ecomers from "./assets/e-commers.png"
 import Coofe from "./assets/cofeshopbdg.png"
 import Sekola from "./assets/sekola.png"
 import Cv from "./assets/cv azka.pdf"
+import rbx from "./assets/beam.png"
+import Indket from "./assets/indket.png"
 export default function App() {
   const [darkMode, setDarkMode] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -148,6 +150,7 @@ export default function App() {
               <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">Cofe shop online order</h3>
               <p className="text-gray-600 dark:text-gray-400 flex-grow">untuk membeli kopi secara online</p>
             </a>
+            
            
            
           </div>
@@ -166,16 +169,13 @@ export default function App() {
               <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">CLASS</h3>
               <p className="text-gray-600 dark:text-gray-400 flex-grow">Ini adalah Website kelas saya di kelas 2 sma saya</p>
             </a>
+            
             <a href="https://clonetopia.netlify.app/" target="_blank" rel="noopener noreferrer" tabIndex={0} aria-label="Project: Project Three" className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg focus:shadow-lg focus:outline-none transition-shadow duration-300 flex flex-col">
               <img className="rounded-md mb-4 object-cover h-48 w-full" src={Clonetopia} alt="Screenshot of Project Three" />
               <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">CloneTopia</h3>
               <p className="text-gray-600 dark:text-gray-400 flex-grow">Clonetopia itu adalah website untuk belanja online di game growtopia</p>
             </a>
-            <a href="https://imagegalleryka.netlify.app/" target="_blank" rel="noopener noreferrer" tabIndex={0} aria-label="Project: Project Four" className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg focus:shadow-lg focus:outline-none transition-shadow duration-300 flex flex-col">
-              <img className="rounded-md mb-4 object-cover h-48 w-full" src={imageGalery} alt="Screenshot of Project Four" />
-              <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">Image Gallery</h3>
-              <p className="text-gray-600 dark:text-gray-400 flex-grow">Image Galerry adalah untuk menyimpan poto poto</p>
-            </a>
+          
             <a href="https://indoket.netlify.app/" target="_blank" rel="noopener noreferrer" tabIndex={0} aria-label="Project: Project Four" className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg focus:shadow-lg focus:outline-none transition-shadow duration-300 flex flex-col">
               <img className="rounded-md mb-4 object-cover h-48 w-full" src={Ecomers} alt="Screenshot of Project Four" />
               <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">indoket</h3>
