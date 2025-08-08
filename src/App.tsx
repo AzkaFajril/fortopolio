@@ -148,11 +148,7 @@ export default function App() {
               <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">Cofe shop online order</h3>
               <p className="text-gray-600 dark:text-gray-400 flex-grow">untuk membeli kopi secara online</p>
             </a>
-            <a href="https://smapasundan3bdg.netlify.app/" target="_blank" rel="noopener noreferrer" tabIndex={0} aria-label="Project: Project Two" className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg focus:shadow-lg focus:outline-none transition-shadow duration-300 flex flex-col">
-              <img className="rounded-md mb-4 object-cover h-48 w-full" src={Sekola} alt="Screenshot of Project Two" />
-              <h3 className="text-xl font-semibold text-blue-700 dark:text-blue-400 mb-2">Sekolah</h3>
-              <p className="text-gray-600 dark:text-gray-400 flex-grow">untuk menampilkan data sekolah dan berita</p>
-            </a>
+           
            
           </div>
         </section>
