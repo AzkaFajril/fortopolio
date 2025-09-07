@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import "./App.css"
-import PotoMe from "./assets/Poto.jpeg"
 import RumahImpian from "./assets/rumahimpian.png"
 import Kelas from "./assets/xi-2kelas.png"
 import Clonetopia from "./assets/clonetopia.png"
@@ -125,11 +124,7 @@ export default function App() {
 
         {/* About Section */}
         <section id="about" aria-label="About me" className="flex flex-col items-center text-center py-10 sm:py-16 px-2 sm:px-0">
-          <img
-            src={PotoMe}
-            alt="Your photo"
-            className="w-32 h-32 sm:w-48 sm:h-48 rounded-full mb-6 sm:mb-8 object-cover"
-          />
+          
           <h2 className="text-2xl sm:text-3xl text-blue-600 dark:text-blue-400 font-semibold mb-3 sm:mb-4">About Me</h2>
           <p className="max-w-md sm:max-w-xl text-gray-700 dark:text-gray-300 leading-relaxed text-base sm:text-lg">
           Saya seorang pengembang web yang bersemangat dan gemar menciptakan pengalaman web yang bersih dan modern. Saya ahli dalam membangun situs web dan aplikasi yang responsif dan mudah digunakan.          </p>
